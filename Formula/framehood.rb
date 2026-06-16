@@ -1,5 +1,5 @@
 class Framehood < Formula
-  desc "Framehood CLI — generate images, video and audio from your terminal"
+  desc "Generate images, video and audio with Framehood from the terminal"
   homepage "https://framehood.ai"
   version "0.1.0"
 
