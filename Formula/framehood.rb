@@ -1,27 +1,27 @@
 class Framehood < Formula
   desc "Generate images, video and audio with Framehood from the terminal"
   homepage "https://framehood.ai"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.0/framehood_darwin_arm64.tar.gz"
-      sha256 "99ffb25d8a3028f8682cac7466b5dabd490d3c40915fca3a3395ffbb1efe2969"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.1/framehood_darwin_arm64.tar.gz"
+      sha256 "8a70144a60674a7bec3e49d5ba7442a078417956f1280174c1598e9775ddb52b"
     end
     on_intel do
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.0/framehood_darwin_amd64.tar.gz"
-      sha256 "ffd2ddc9599e8da1cc59020135a781f7266f678c697dac94a2acf3a14ab28ca7"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.1/framehood_darwin_amd64.tar.gz"
+      sha256 "890cd7131fe8260af445f8291a6bfb40e0a87b6190671d968e9289b3795a36f2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.0/framehood_linux_arm64.tar.gz"
-      sha256 "2da5ec63c507db7693a4dc6dbcf3880103b0ae4554803b61bc289443b084d0c4"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.1/framehood_linux_arm64.tar.gz"
+      sha256 "93ced686c31744829059bfb82f1d8b342c7e5ba27a2ccbf6a33ded3e41f11cf1"
     end
     on_intel do
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.0/framehood_linux_amd64.tar.gz"
-      sha256 "cbf96c955985e9b5c6f8065031d2be2ba8b7820fc3721ee93fb64ae25d595247"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.1.1/framehood_linux_amd64.tar.gz"
+      sha256 "99be22096f93d36786cb95d13413f8676d67a6c6c74525214ee13cb2e3c726fd"
     end
   end
 
