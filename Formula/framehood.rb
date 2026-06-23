@@ -5,21 +5,21 @@
 class Framehood < Formula
   desc "Framehood CLI — generate images, video and audio from your terminal."
   homepage "https://framehood.ai"
-  version "0.3.7"
+  version "0.3.8"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.7/framehood_darwin_amd64.tar.gz"
-      sha256 "8f6e2d2381d268f5cf08fa2f9c8ae8882cc51ca3ab6ad9509c7f0c9572c3ad31"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.8/framehood_darwin_amd64.tar.gz"
+      sha256 "81052cedc6ed63e4931dd7f79b099c5e92b85db400f6136fb03f0a0dd8f74332"
 
       define_method(:install) do
         bin.install "framehood"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.7/framehood_darwin_arm64.tar.gz"
-      sha256 "917e248de1ec809d250c6d3d7e01e158bd1f63068ad03abacbdfcafaa7e2ee90"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.8/framehood_darwin_arm64.tar.gz"
+      sha256 "a576eca90ded401e572686c78ffd2cd67f856cf4fb51403463d4445ce68c9048"
 
       define_method(:install) do
         bin.install "framehood"
@@ -29,15 +29,15 @@ class Framehood < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.7/framehood_linux_amd64.tar.gz"
-      sha256 "a8d1eb6940e6a0ca8fe5137eccff6af5124dc7804563ab657fb0171722945e83"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.8/framehood_linux_amd64.tar.gz"
+      sha256 "f6325192127e996e0add96ea07ebd929883acd926b8b46f1a50a67c948615feb"
       define_method(:install) do
         bin.install "framehood"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.7/framehood_linux_arm64.tar.gz"
-      sha256 "9c64d3506c6f92017abca91a28abf6ebe2dc25fb76ecb80cc8e82fee4926bd85"
+      url "https://github.com/Framehood/framehood-cli/releases/download/v0.3.8/framehood_linux_arm64.tar.gz"
+      sha256 "9cb774fc676942ff253a35070f516a7956e8b9bf0b235a58217fc9db4c54d475"
       define_method(:install) do
         bin.install "framehood"
       end
